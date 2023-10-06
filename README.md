@@ -1,3 +1,13 @@
+# A simple svelte native application
+
+- Set to build on ios/android using capacitor
+- npm i
+- npm run cap:deploy
+- npx cap run android
+- android studio should open and start loadin the project
+
+I had an issue where the naative functiions (the geolocation for example) didn't work in either the emulator or on a device. I also couldn't get hot reloadign to work. Every change meant runniing cap:deploy and resarting the emulator (frustrating). I will look into this at a later date.
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
